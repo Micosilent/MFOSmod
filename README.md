@@ -8,5 +8,8 @@ I will be using SMT in all the places I can, and replacing obsolete components t
 
 ## Completed Modules:
 
-	1. None! :D Come back in a few days
+	1. VCO
+
+
+    
 

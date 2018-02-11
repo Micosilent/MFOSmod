@@ -1,0 +1,118 @@
+* C:\Users\Micosil\Dropbox\Projects\HARDWARE\Synths\MFOSmod\VCO\vco.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 07-Feb-18 9:44:50 AM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U5  Net-_C7-Pad1_ Net-_D1-Pad2_ Net-_R16-Pad2_ Net-_R16-Pad2_ GND Net-_C2-Pad1_ SSM2210		
+U3  Net-_C1-Pad2_ Net-_C1-Pad1_ GND -12V GND Net-_C7-Pad1_ Net-_C7-Pad2_ +12V OP275		
+RV2  Net-_R10-Pad2_ Net-_R3-Pad2_ Net-_R2-Pad1_ 100K		
+RV1  Net-_R9-Pad2_ Net-_R4-Pad2_ Net-_R1-Pad1_ 100K		
+R2  Net-_R2-Pad1_ -12V 200K		
+R10  +12V Net-_R10-Pad2_ 200K		
+R9  +12V Net-_R9-Pad2_ 47K		
+R1  Net-_R1-Pad1_ -12V 10K		
+W2  ? R3P1		
+W4  ? R3P3		
+W3  ? R2P2		
+W1  ? R2P1		
+R3  Net-_C1-Pad1_ Net-_R3-Pad2_ 1M		
+R4  Net-_C1-Pad1_ Net-_R4-Pad2_ 100K		
+R5  Net-_C1-Pad1_ CV1 100K		
+R6  Net-_C1-Pad1_ CV2 100K		
+R7  Net-_C1-Pad1_ CV3 100K		
+R8  Net-_C1-Pad1_ ? 100K		
+C1  Net-_C1-Pad1_ Net-_C1-Pad2_ 100pF		
+TH1  Net-_TH1-Pad1_ ? 1K PTC		
+TH2  Net-_C1-Pad2_ Net-_TH1-Pad1_ 1K PTC		
+RV3  Net-_C1-Pad2_ Net-_D1-Pad2_ Net-_R11-Pad1_ 100		
+R11  Net-_R11-Pad1_ GND 475		
+R16  Net-_C7-Pad2_ Net-_R16-Pad2_ 10K		
+RV5  Net-_R14-Pad1_ Net-_R14-Pad1_ Net-_C7-Pad2_ 100K		
+R14  Net-_R14-Pad1_ Net-_D1-Pad1_ 4.7K		
+D1  Net-_D1-Pad1_ Net-_D1-Pad2_ D		
+C7  Net-_C7-Pad1_ Net-_C7-Pad2_ 100pF		
+R23  +12V Net-_C7-Pad1_ 1M		
+R13  Net-_C7-Pad1_ LIN 1M		
+R12  GND LIN 100K		
+U2  RAW Net-_C2-Pad1_ GND -12V Net-_C5-Pad1_ Net-_R17-Pad1_ Net-_C5-Pad2_ +12V TL072		
+C2  Net-_C2-Pad1_ RAW .005uF		
+Q1  Net-_C2-Pad1_ RAW Net-_Q1-Pad3_ Q_NJFET_DSG		
+R15  Net-_C5-Pad1_ RAW 10K		
+R21  Net-_C5-Pad2_ Net-_C5-Pad1_ 1M		
+C5  Net-_C5-Pad1_ Net-_C5-Pad2_ 4.7pF		
+R19  +12V Net-_R17-Pad1_ 10K		
+R20  GND Net-_R17-Pad1_ 2K		
+C6  +12V GND .1uF		
+R17  Net-_R17-Pad1_ Net-_C3-Pad2_ 1K		
+C3  SYNC Net-_C3-Pad2_ .001uF		
+R18  SYNC GND 100K		
+R24  Net-_C8-Pad1_ Net-_Q1-Pad3_ 100K		
+R25  Net-_C8-Pad1_ -12V 18K		
+C8  Net-_C8-Pad1_ GND 100pF		
+D2  Net-_C8-Pad1_ Net-_C5-Pad2_ D		
+U4  Net-_U4-Pad1_ Net-_U4-Pad1_ GND +12V Net-_C4-Pad1_ Net-_R26-Pad1_ Net-_D4-Pad2_ Net-_D3-Pad2_ Net-_R29-Pad2_ GND -12V Net-_C9-Pad1_ Net-_R36-Pad1_ SINSHAPER TL074		
+R26  Net-_R26-Pad1_ RAW 10K		
+R28  Net-_D4-Pad2_ Net-_R26-Pad1_ 47K		
+R29  Net-_D4-Pad2_ Net-_R29-Pad2_ 10K		
+RV4  Net-_R22-Pad2_ Net-_C4-Pad1_ GND 10K		
+R22  +12V Net-_R22-Pad2_ 100K		
+C4  Net-_C4-Pad1_ GND .1uF		
+R30  Net-_D3-Pad2_ Net-_R29-Pad2_ 10K		
+R33  RMP Net-_D3-Pad2_ 1K		
+RV8  Net-_R35-Pad2_ Net-_C9-Pad1_ GND 10K		
+R35  +12V Net-_R35-Pad2_ 10K		
+C9  Net-_C9-Pad1_ GND .1uF		
+R40  TRI SINSHAPER 1K		
+R38  -12V Net-_C10-Pad1_ 20K		
+D4  Net-_C10-Pad1_ Net-_D4-Pad2_ D		
+D3  Net-_C10-Pad1_ Net-_D3-Pad2_ D		
+R36  Net-_R36-Pad1_ Net-_C10-Pad1_ 10K		
+C10  Net-_C10-Pad1_ -12V .002uF		
+R39  SINSHAPER Net-_R36-Pad1_ 20K		
+U1  Net-_R34-Pad2_ ? Net-_R27-Pad2_ GND Net-_R37-Pad2_ -12V Net-_R37-Pad2_ Net-_R41-Pad2_ ? ? +12V ? GND GND ? ? LM13700		
+RV6  +12V Net-_R27-Pad1_ -12V 100K		
+R27  Net-_R27-Pad1_ Net-_R27-Pad2_ 470K		
+RV7  SINSHAPER Net-_R32-Pad1_ Net-_R32-Pad1_ 100K		
+R32  Net-_R32-Pad1_ Net-_R27-Pad2_ 20k		
+R31  Net-_R27-Pad2_ GND 1K		
+RV9  +12V Net-_R34-Pad1_ Net-_R34-Pad1_ 1M		
+R34  Net-_R34-Pad1_ Net-_R34-Pad2_ 100K		
+R37  +12V Net-_R37-Pad2_ 1M		
+R41  SIN Net-_R41-Pad2_ 1K		
+R42  -12V Net-_R41-Pad2_ 4.7K		
+R43  GND Net-_R37-Pad2_ 130K		
+U6  Net-_RV10-Pad1_ Net-_RV10-Pad1_ Net-_C14-Pad1_ -12V Net-_C15-Pad2_ Net-_RV10-Pad3_ Net-_RV10-Pad3_ +12V TL072		
+D5  Net-_C14-Pad1_ Net-_D3-Pad2_ D		
+D6  Net-_D3-Pad2_ Net-_D6-Pad2_ D		
+D7  Net-_D6-Pad2_ Net-_D7-Pad2_ D		
+D8  Net-_D7-Pad2_ Net-_C15-Pad2_ D		
+C14  Net-_C14-Pad1_ GND 1uF		
+C15  GND Net-_C15-Pad2_ 1uF		
+U7  ? PWM Net-_C11-Pad1_ -12V ? Net-_C11-Pad2_ +12V ? TL071		
+RV10  Net-_RV10-Pad1_ Net-_R47-Pad2_ Net-_RV10-Pad3_ 100K		
+C12  +12V GND .1uF		
+C13  -12V GND .1uF		
+C11  Net-_C11-Pad1_ Net-_C11-Pad2_ 10pF		
+R46  Net-_C11-Pad2_ Net-_C11-Pad1_ 10M		
+R48  Net-_C11-Pad2_ SQR 4.7K		
+R49  SQR GND 3K		
+R44  Net-_C11-Pad1_ Net-_D3-Pad2_ 100K		
+R45  PWM GND 100K		
+R47  PWM Net-_R47-Pad2_ 10K		
+* Sheet Name: /connectors/
+J1  SYNC GND Audio-Jack-2		
+J2  PWM GND Audio-Jack-2		
+J3  LIN ? Audio-Jack-2		
+J4  SIN GND Audio-Jack-2		
+J5  TRI GND Audio-Jack-2		
+J6  RMP GND Audio-Jack-2		
+J7  SQR GND Audio-Jack-2		
+J8  CV1 GND Audio-Jack-2		
+J9  CV2 GND Audio-Jack-2		
+J10  CV3 GND Audio-Jack-2		
+J11  -12V GND GND GND +12V ? ? ? -12V GND GND GND +12V ? ? ? Conn_02x08_Top_Bottom		
+
+.end

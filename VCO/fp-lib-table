@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name customfootprints)(type KiCad)(uri C:/Users/Micosil/Dropbox/Projects/HARDWARE/Synths/MFOSmod/customfootprints.pretty)(options "")(descr ""))
+  (lib (name OPENHARDWARE)(type Legacy)(uri C:/Users/Micosil/Dropbox/Projects/HARDWARE/Synths/MFOSmod/customfootprints.pretty/OPENHARDWARE.mod)(options "")(descr ""))
+)
