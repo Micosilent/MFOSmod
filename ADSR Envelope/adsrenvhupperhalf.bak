@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -46,10 +46,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 7250 1850 3550 3000
-U 5A995ED7
-F0 "Sheet5A995ED6" 60
-F1 "adsrenvhupperhalf.sch" 60
-$EndSheet
 $EndSCHEMATC
