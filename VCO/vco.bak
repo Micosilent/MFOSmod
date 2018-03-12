@@ -2442,6 +2442,5 @@ F0 "connectors" 60
 F1 "vcocon.sch" 60
 $EndSheet
 Connection ~ 16800 8650
-Connection ~ 3150 2950
 Connection ~ 10250 5500
 $EndSCHEMATC

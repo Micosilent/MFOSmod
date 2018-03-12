@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:vco-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -372,7 +371,7 @@ U 1 1 5A678854
 P 2700 2650
 F 0 "RV3" H 2700 2570 50  0000 C CNN
 F 1 "100" H 2700 2650 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 2700 2650 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 2700 2650 50  0001 C CNN
 F 3 "" H 2700 2650 50  0000 C CNN
 	1    2700 2650
 	0    1    1    0   
@@ -427,7 +426,7 @@ U 1 1 5A679D0C
 P 4700 1950
 F 0 "RV5" H 4700 1870 50  0000 C CNN
 F 1 "100K" H 4700 1950 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 4700 1950 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 4700 1950 50  0001 C CNN
 F 3 "" H 4700 1950 50  0000 C CNN
 	1    4700 1950
 	1    0    0    -1  
@@ -952,7 +951,7 @@ U 1 1 5A68A142
 P 4550 950
 F 0 "RV4" H 4550 870 50  0000 C CNN
 F 1 "10K" H 4550 950 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 4550 950 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 4550 950 50  0001 C CNN
 F 3 "" H 4550 950 50  0000 C CNN
 	1    4550 950 
 	-1   0    0    1   
@@ -1110,7 +1109,7 @@ U 1 1 5A68FF29
 P 6600 800
 F 0 "RV8" H 6600 720 50  0000 C CNN
 F 1 "10K" H 6600 800 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214X" H 6600 800 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 6600 800 50  0001 C CNN
 F 3 "" H 6600 800 50  0000 C CNN
 	1    6600 800 
 	-1   0    0    1   
@@ -1681,7 +1680,7 @@ U 1 1 5A784CAD
 P 5600 4900
 F 0 "RV6" V 5425 4900 50  0000 C CNN
 F 1 "100K" V 5500 4900 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 5600 4900 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 5600 4900 50  0001 C CNN
 F 3 "" H 5600 4900 50  0001 C CNN
 	1    5600 4900
 	0    1    1    0   
@@ -1737,7 +1736,7 @@ U 1 1 5A785A43
 P 6250 4600
 F 0 "RV7" V 6075 4600 50  0000 C CNN
 F 1 "100K" V 6150 4600 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 6250 4600 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 6250 4600 50  0001 C CNN
 F 3 "" H 6250 4600 50  0001 C CNN
 	1    6250 4600
 	0    1    1    0   
@@ -1827,7 +1826,7 @@ U 1 1 5A7879E6
 P 6850 5000
 F 0 "RV9" V 6675 5000 50  0000 C CNN
 F 1 "1M" V 6750 5000 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214W" H 6850 5000 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 6850 5000 50  0001 C CNN
 F 3 "" H 6850 5000 50  0001 C CNN
 	1    6850 5000
 	0    1    1    0   
